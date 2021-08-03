@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+body div {
+    margin: 15px;
+}
+
+.page {
+    margin: 1% 0 0 15%;
+    width: 70%;
+}
+
+.user {
+    margin: 0;
+    display: flex;
+}
+
+.user__photo__img {
+    width: 200px;
+    border-radius: 3px;
+}
+
+.user__about__name {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.language_element {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.table {
+    margin: 2% 0 0 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 12px;
+    width: 13%;
+    text-align: center;
+}
+
+td:first-child {
+    width: 35%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0 0 0;
+}
+
+.about__item {
+    margin: 0;
+    width: 45%;
+}
+
+.about__item input {
+    width: 100%;
+}
+
+.about__me {
+    text-align: center;
+}
+
+.about__me__text {
+    display: none;
+    text-align: left;
+}
+
+.about__me button {
+    font-size: x-large;
+    border: none;
+    background-color: #ddd;
+}
+
+
